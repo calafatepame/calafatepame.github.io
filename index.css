@@ -1,0 +1,83 @@
+:root {
+    --nord-0: #2E3440;   /* Negro azulado */
+    --nord-1: #3B4252;   /* Gris más oscuro */
+    --nord-2: #434C5E;   /* Gris oscuro */
+    --nord-3: #4C566A;   /* Gris */
+    --nord-4: #D8DEE9;   /* Gris claro */
+    --nord-5: #E5E9F0;   /* Gris más claro */
+    --nord-6: #ECEFF4;   /* Blanco azulado */
+    --nord-7: #8FBCBB;   /* Verde pálido */
+    --nord-8: #88C0D0;   /* Cian pálido */
+    --nord-9: #81A1C1;   /* Azul pálido */
+    --nord-10: #5E81AC;  /* Azul */
+    --nord-11: #BF616A;  /* Rojo */
+    --nord-12: #D08770;  /* Naranja */
+    --nord-13: #EBCB8B;  /* Amarillo */
+    --nord-14: #A3BE8C;  /* Verde */
+    --nord-15: #B48EAD;  /* Morado */
+    --font: Arial, Helvetica, sans-serif;
+}
+
+:root {
+
+}
+
+body {
+    font-family: var(--font);
+    
+ }
+
+
+ header, section {
+    width: 960px;
+    
+ }
+
+ header {
+    display: flex;
+    
+ }
+
+ img {
+    display: none;
+    margin-right: 60px;
+    margin-bottom: 30px;
+ }
+
+ h2 {
+    color: var(--nord-5);
+    font-size: 22px;
+    background-color: var(--nord-10);
+ }
+
+ strong {
+   font-weight: bold;
+ }
+
+ul {
+   background-color: var(--nord-5);
+   padding: auto;
+   
+}
+
+/* Estilos para la barra de navegación */
+nav {
+   font-weight: bold;
+    display: flex;
+    background-color: var(--nord-10);
+    color: var(--nord-5);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    overflow: hidden;
+}
+nav a {
+    color: var(--nord-5);
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;  
+}
+
+

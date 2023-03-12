@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+	  <title>Mi Curriculum Vitae</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script>
+      function toggleFoto() {
+      var foto = document.getElementById("foto");
+      if (foto.style.display === "") {
+      foto.style.display = "block";
+     } else {
+      foto.style.display = "";
+      }
+    }
+    </script>
+  </head>
+  <body>
+  
+	<!-- Barra de navegación con links ancla -->
+	  <nav>
+        <a href="#datos-personales">Datos personales</a>
+        <a href="#datos-de-contacto">Datos de Contacto</a>
+        <a href="#formacion-academica">Formación académica</a>
+        <a href="#experiencia-laboral">Experiencia laboral</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#foto" onclick="toggleFoto()">Mostrar foto</a>
+    </nav>
+
+    <header>
+      <div>
+        <img id="foto" src="https://randomuser.me/api/portraits/men/75.jpg">
+      </div>
+      
+      <div>
+        <h1>Juan Pérez</h1>
+        <h1>Full Stack Developer</h1>
+      </div>
+    </header>
+    <section>
+      <article>
+        <h2 id="datos personales">Datos Personales</h2>
+          <ul>
+            <li> <strong>Nombre completo:</strong> Juan Pérez</li>
+            <li> <strong>Fecha de nacimiento:</strong> 01/01/1990</li>
+            <li> <strong>Teléfono:</strong> (123) 456-7890</li>
+          </ul>
+
+        <h2 id="datos de contacto">Datos de Contacto</h2>
+          <ul>
+            <li> <strong>Correo electrónico:</strong> juanperez@gmail.com</li>
+            <li> <strong>Página Web</strong> www.juanperez.com</li>
+            <li> <strong>LinkedIn:</strong> www.linkedin.com/in/juanperez</li>
+          </ul>  
+                  
+        <h2 id="formacion-academica">Formación Académica</h2>
+          <ul>
+            <li> <strong>Nombre del título:</strong> Licenciado en Informática</li>
+            <li> <strong>Institución:</strong> Universidad Nacional de Buenos Aires</li>
+            <li> <strong>Año de graduación:</strong> 2015</li>
+          </ul>
+
+        <h2 id="experiencia-laboral">Experiencia laboral</h2>
+          <ul>
+            <li> <strong>Nombre de la empresa:</strong> Empresa S.A.</li>
+            <li> <strong>Cargo:</strong> Desarrollador web</li>
+            <li> <strong>Periodo:</strong> 2016-2019</li>
+          </ul>
+          <ul>
+            <li> <strong>Nombre de la empresa:</strong> Empresa 2 S.A.</li>
+            <li> <strong>Cargo:</strong> Desarrollador front end</li>
+            <li> <strong>Periodo:</strong> 2020-2022</li>
+          </ul>
+          
+        <h2 id="habilidades">Habilidades</h2>
+            <ul>
+                <li> <strong>HTML</strong></li>
+                <li> <strong>CSS</strong></li>
+                <li> <strong>JavaScript</strong></li>
+                <li> <strong>PHP</strong></li>
+            </ul>
+      </article>
+    </section>
+  </body>
+</html>
